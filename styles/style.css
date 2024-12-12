@@ -1,0 +1,364 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    margin-top: 90px;
+}
+
+.title{
+    margin-left: 150px;
+    font-size: 1.3rem;
+    margin-top: 50px;
+}
+
+/* promo banner */
+
+.promo-banner {
+    font-size: x-large;
+    font-weight: 600;
+    background-color: #ff4081;
+    color: white;
+    padding: 1px 20px; 
+    line-height: 0.5; 
+    width: 80%; 
+    margin: 10px auto; 
+    border-radius: 10px;
+}
+
+
+
+/* grid */
+
+.container-grid {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.container-title {
+    display: flex; 
+    background-color: #fafafa; 
+    border-radius: 15px;
+    padding: 20px; 
+    max-width: 560px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    align-items: center; 
+    gap: 50px;
+    margin-left: 30px;
+}
+
+.text-content .judul {
+    font-weight: 700; 
+    font-size: 1.5rem; 
+    margin-bottom: 10px;
+}
+
+.text-content .description {
+    font-size: medium; 
+    color: #6c6c6c; 
+}
+
+.text-content{
+    a{
+        color: #ff4081;
+        font-size: large;
+        font-weight: 600;
+    }
+}
+
+.text-content b {
+    color: #6b6b6b; 
+    font-size: larger; 
+    margin-top: 10px;
+}
+
+.container-title img {
+    width: 200px; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+
+
+/* about */
+
+
+.container-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.profile-img-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden; 
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.text-content-about {
+    text-align: center;
+
+    b{
+        font-size: 2rem;
+    }
+    p{
+        font-size: x-large;
+        margin-top: 25px;
+    }
+}
+
+/* medsos */
+
+.social-media {
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.social-media a {
+    text-decoration: none; 
+    font-size: 3rem; 
+    color: #ff4081; 
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.social-media a:hover {
+    color: #ff4081; 
+    transform: scale(1.2); 
+}
+
+.social-media i {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* style blog */ 
+
+/* title blog */
+.title-blog{
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 0 380px
+}
+/*  cari */
+
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    width: 800px; 
+    padding: 20px 20px; 
+    font-size: 20px; 
+    border: 2px solid #ccc;
+    border-radius: 50px; 
+    outline: none;
+    font-weight: 600;
+    color: #ff4081;
+
+}
+
+.search-input:focus {
+    border-color: #ff4081; 
+}
+
+
+.container-title-blog {
+    display: flex;
+    background-color: #fafafa;
+    border-radius: 15px;
+    padding: 20px 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    align-items: center;
+    margin: 20px auto; 
+    max-width: 800px;
+}
+
+.text-content .description {
+    font-size: medium;
+    color: #6c6c6c;
+
+}
+
+.kalender{
+    color: #a3a3a3;
+}
+
+/* digitaldwonlaod */
+
+/* atas */
+.title-digi {
+    margin: 50px;
+    margin-bottom: -200px;
+}
+
+.text-content-digi{
+    padding: 0 100px 150px;
+}
+
+.text-content-digi .judul-besar{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px
+}
+
+
+.deskripsi {
+    font-size: 20px;
+    color: #1b1b1b;
+    margin-bottom: 10px; 
+}
+
+.harga {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff4081;
+    margin-top: 10px;
+}
+
+.harga .original-price {
+    text-decoration: line-through; 
+    color: #ff0000; 
+    margin-right: 10px; 
+}
+
+.harga .discount-price {
+    color: #ff4081; 
+}
+
+
+.gambar {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title-digi {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.text-content-digi {
+    flex: 1;
+}
+
+.judul-besar {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.deskripsi {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.harga {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff4081;
+    margin-top: 10px;
+}
+
+
+.buy-price {
+    background-color: #ff4081; 
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 160px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+ 
+.gambar {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 150px;
+    margin-bottom: 150px;
+}
+
+/* yutub */
+.video-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+iframe {
+    width: 100%; 
+    height: 700px;
+    
+}
+
+/* bawah youtube */
+ 
+
+.purchase-container {
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 100px;
+}
+
+.purchase-container .suka {
+    margin: 10px 0;
+    color: #000000;
+    font-size: 20px;
+}
+
+.icon {
+    color: #ff4081;
+    font-size: 3rem;
+}
+
+.buy-price2 {
+    background-color: #ff4081; 
+    font-size: 18px;
+    font-weight: bold;
+    width: 160px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 670px;
+
+}
+
+.text-content-digi .bold {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.text-content-digi .light {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+

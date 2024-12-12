@@ -1,0 +1,40 @@
+
+
+<title>Login - Raditya Dika</title>
+<link rel="stylesheet" href="styles/login.css">
+<body>
+    
+
+        <div class="login-container">
+
+                <div class="logo">
+                    <img src="assets/p.png" alt="Raditya Dika Logo" class="logo-img">
+                    <a class="logo-text" href="index.html">RADITYADIKA.COM</a>
+                </div>
+
+            <h2>Halaman Login</h2>
+            <form action="#" method="post">
+
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    <p class="register-text"><a href="#">Lupa Password</a></p>
+                </div>
+
+                <button type="submit" class="login-btn" onclick="loginSuccess()">LOGIN</button>
+                <p class="register-text">Belum punya akun? <a href="daftar.html">Daftar</a></p>
+            </form>
+        </div>
+</body>
+<script>
+    function loginSuccess() {
+      if (confirm("Login Berhasil!")) {
+        window.location.href = "index.html"; // ganti dengan URL halaman index Anda
+      }
+    }
+  </script>
+
+</html>
